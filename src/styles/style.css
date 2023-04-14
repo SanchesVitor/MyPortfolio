@@ -199,3 +199,9 @@ input {
   right: 0;
   margin: auto;
 }
+
+/* MAIN */
+
+.main {
+  margin-left: 100;
+}
