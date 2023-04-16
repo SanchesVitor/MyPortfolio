@@ -110,6 +110,15 @@ input {
 }
 
 /* LAYOUT */
+.container {
+  max-width: 1250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid {
+  display: grid;
+}
 
 /* REUSABLE CSS CLASSES */
 
@@ -203,5 +212,41 @@ input {
 /* MAIN */
 
 .main {
-  margin-left: 100;
+  margin-left: 100px;
+}
+
+/* Home Section */
+.home {
+  background: url(../assets/bg-code.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+
+.home-container {
+  position: relative;
+  height: 100%;
+  align-items: center;
+}
+
+.home-social {
+  position: absolute;
+  top: 1.8rem;
+  left: 0;
+  display: flex;
+  align-items: center;
+  column-gap: 3.5rem;
+}
+
+.home-social-fallow {
+  font-weight: var(--font-medium);
+  position: relative;
+}
+
+.home-social-follow::after {
+   
+}
+
+.home-img {
+  display: none;
 }
