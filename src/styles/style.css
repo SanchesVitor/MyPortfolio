@@ -423,7 +423,7 @@ input {
 /* QUALIFICATION SECTION */
 .qualification-container {
   grid-template-columns: repeat(2, 340px);
-  column-gap: 3rem;
+  column-gap: 7rem;
   justify-content: center;
 }
 
