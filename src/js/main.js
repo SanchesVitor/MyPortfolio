@@ -48,7 +48,7 @@ function activeWork() {
 
 linkWork.forEach(l => l.addEventListener('click', activeWork));
 
-/* Work Popup */
+/* WORK POPUP */
 document.addEventListener('click', (e) => {
   if (e.target.classList.contains('work-button')) {
     togglePortfolioPopup();
@@ -67,3 +67,8 @@ function portfolioItemDetails(portfolioItem) {
   document.querySelector('.portfolio-popup-subtitle span').innerHTML = portfolioItem.querySelector('.work-title').innerHTML;
   document.querySelector('.portfolio-popup-body').innerHTML = portfolioItem.querySelector('portfolio-item-details').innerHTML;
 }
+
+/* SERVICES MODAL */
+const modalViews = document.querySelectorAll('.services-modal'),
+      modelBtns = document.querySelectorAll('.services-button'),
+      modalCloses = document.querySelectorAll('.services-modal-close')
