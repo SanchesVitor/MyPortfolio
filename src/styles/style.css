@@ -841,3 +841,17 @@ input {
   opacity: 1;
   visibility: visible;
 }
+
+/* Testimonial Section */
+@media screen and (min-width: 992px) {
+  .testimonials-container {
+    width: 750px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+
+.testimonial-card {
+  background-color: var(--box-color);
+}
+
