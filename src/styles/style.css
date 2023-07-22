@@ -962,6 +962,11 @@ input {
   cursor: pointer;
 }
 
+.contact-button a {
+  text-decoration: none;
+  color: var(--skin-color);
+}
+
 .contact-button-icon {
   font-size: 1rem;
   transition: .3s;
@@ -970,6 +975,7 @@ input {
 .contact-button:hover .contact-button-icon {
   transform: translateX(.25rem);
 }
+
 
 .input-container {
   position: relative;
